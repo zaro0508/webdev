@@ -18,6 +18,7 @@ In contrast to ``SimpleHTTPServer`` this development web server:
 - Will return back to normal operation if the folder is recreated.
   Very useful with build systems that perform clean actions.
 - Bind IP can be specified in case security is a must while developing.
+- Open plain text files in the browser (txt, json, yaml, template, config)
 
 As with ``SimpleHTTPServer`` this web server can:
 
@@ -62,6 +63,13 @@ Usage
 
 Changelog
 =========
+
+1.2.0
+-----
+
+**New**
+
+- Open plain text files in the browser (txt, json, yaml, template, config).
 
 1.1.0
 -----
